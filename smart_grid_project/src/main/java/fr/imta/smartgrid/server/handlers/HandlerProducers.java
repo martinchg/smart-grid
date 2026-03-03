@@ -1,5 +1,7 @@
 package fr.imta.smartgrid.server.handlers;
 
+import java.util.List;
+
 import fr.imta.smartgrid.model.Producer;
 import fr.imta.smartgrid.model.SolarPanel;
 import fr.imta.smartgrid.model.WindTurbine;
@@ -9,8 +11,6 @@ import io.vertx.core.json.JsonObject;
 import io.vertx.ext.web.RoutingContext;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.TypedQuery;
-
-import java.util.List;
 
 public class HandlerProducers implements Handler<RoutingContext> {
 

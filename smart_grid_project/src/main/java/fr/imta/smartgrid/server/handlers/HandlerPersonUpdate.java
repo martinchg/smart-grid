@@ -1,5 +1,8 @@
 package fr.imta.smartgrid.server.handlers;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import fr.imta.smartgrid.model.Grid;
 import fr.imta.smartgrid.model.Person;
 import fr.imta.smartgrid.model.Sensor;
@@ -9,9 +12,6 @@ import io.vertx.core.json.JsonObject;
 import io.vertx.ext.web.RoutingContext;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityTransaction;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class HandlerPersonUpdate implements Handler<RoutingContext> {
 
